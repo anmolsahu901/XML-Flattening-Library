@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>xmlFatteningLib</artifactId>
 	<version>0.0.1</version>
-	<name>xmlFatteningPoc2</name>
+	<name>xml-Fattening-lib</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
