@@ -1,0 +1,27 @@
+{
+  "mappings": [
+    {
+      "fieldName": "name",
+      "xpath": "/root/user/name",
+      "isRequired": true,
+      "minLength": 1,
+      "maxLength": 50
+    },
+    {
+      "fieldName": "email",
+      "xpath": "/root/user/email",
+      "isRequired": true,
+      "minLength": 1,
+      "maxLength": 50
+    },
+    {
+      "fieldName": "id",
+      "xpath": "/root/details/id",
+      "isRequired": true
+    },
+    {
+      "fieldName": "date",
+      "xpath": "/root/details/dob"
+    }
+  ]
+}
