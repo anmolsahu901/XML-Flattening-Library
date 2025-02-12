@@ -1,4 +1,4 @@
-package com.example.xmlFatteningPoc2.jacksonpojo;
+package com.example.xmlFatteningLib.jacksonpojo;
 
 import lombok.Data;
 import lombok.Getter;

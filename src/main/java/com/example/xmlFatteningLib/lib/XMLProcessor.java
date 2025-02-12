@@ -1,9 +1,9 @@
-package com.example.xmlFatteningPoc2.lib;
+package com.example.xmlFatteningLib.lib;
 
 
-import com.example.xmlFatteningPoc2.jacksonpojo.ConfigMapping;
-import com.example.xmlFatteningPoc2.jacksonpojo.FieldMapping;
-import com.example.xmlFatteningPoc2.jacksonpojo.FieldValidationResult;
+import com.example.xmlFatteningLib.jacksonpojo.ConfigMapping;
+import com.example.xmlFatteningLib.jacksonpojo.FieldMapping;
+import com.example.xmlFatteningLib.jacksonpojo.FieldValidationResult;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

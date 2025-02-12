@@ -1,8 +1,7 @@
-package com.example.xmlFatteningPoc2.jacksonpojo;
+package com.example.xmlFatteningLib.jacksonpojo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
-import lombok.Getter;
 
 
 import java.util.List;

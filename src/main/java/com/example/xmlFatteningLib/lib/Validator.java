@@ -1,7 +1,7 @@
-package com.example.xmlFatteningPoc2.lib;
+package com.example.xmlFatteningLib.lib;
 
 
-import com.example.xmlFatteningPoc2.jacksonpojo.FieldValidationResult;
+import com.example.xmlFatteningLib.jacksonpojo.FieldValidationResult;
 
 import java.util.ArrayList;
 import java.util.List;
