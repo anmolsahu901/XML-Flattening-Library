@@ -1,7 +1,7 @@
 package com.example.xmlFatteningPoc2.controller;
 
 
-import com.example.xmlFatteningPoc2.lib.XMLProcessor;
+import com.example.xmlFatteningPoc2.library.flow.XMLProcessor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -32,7 +32,9 @@ public class FunctionController {
         String result = null;
 
         try{
-            result = processor.process(xmlInput.trim(),mappingInput.trim());
+//            result = processor.process(xmlInput.trim(),mappingInput.trim());
+            result = processor.processUsingRuleSet(xmlInput.trim(),"RULE_SET_1");
+
         }catch (Exception e){
             System.out.println("Error in flattening {}"+e.getMessage());
         }
